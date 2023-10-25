@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend 3 Contest-2 June</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="signup">
+        <h1>SignUp</h1>
+        <form id="Loginform">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password"  required>
+            <h3 id="errormassage"></h3>
+            <h3 id="suceesmassage"></h3>
+            <button id="signupSubmit">SignUp</button>
+        </form>
+    </div>
+    <div class="showProfile">
+        <header id="showProfileHeader">
+            <span>Header</span>
+            <span>Signup</span>
+            <span>Profile</span>
+
+        </header>
+        <div class="showProfileData">
+            <div><span>Profile  </span></div>
+            <div><span>Full Name :</span><h3 id="nameout"></h3></div>
+            <div><span>Email :</span> <h3 id="emailout"></h3></div>
+            <div><span>Password</span><h3 id="Passout"></h3></div>
+            <button id="profileLogout">Logout</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
